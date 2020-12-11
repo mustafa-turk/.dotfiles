@@ -1,0 +1,67 @@
+{
+  "git.enableSmartCommit": true,
+  "editor.autoIndent": "full",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.tabSize": 2,
+  "editor.scrollBeyondLastLine": true,
+  "editor.codeLens": true,
+  "editor.wordWrap": "on",
+  "editor.fontWeight": "normal",
+  "editor.renderIndentGuides": false,
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 13,
+  "editor.overviewRulerBorder": false,
+  "editor.parameterHints.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 21,
+  "explorer.openEditors.visible": 0,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "Jetbrains Mono",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "*.docdef": "json",
+    "*.dosdef": "json",
+    "*.reflist": "json",
+    "*.searchdef": "json"
+  },
+  "breadcrumbs.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "prettier.jsxSingleQuote": true,
+  "window.zoomLevel": 1,
+  "window.nativeTabs": true,
+  "window.autoDetectColorScheme": false,
+  "workbench.statusBar.visible": true,
+  "workbench.tree.indent": 15,
+  "workbench.sideBar.location": "left",
+  "workbench.editor.showIcons": false,
+  "workbench.settings.editor": "json",
+  "workbench.activityBar.visible": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.colorCustomizations": {
+    "scrollbar.shadow": "#ffffff00",
+    "widget.shadow": "#ffffff00",
+    "statusBar.background": "#252526"
+  },
+  "terminal.integrated.rendererType": "dom",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "vs-minimal",
+  "extensions.ignoreRecommendations": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "Darker+"
+}
