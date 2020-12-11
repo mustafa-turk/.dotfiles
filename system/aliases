@@ -1,0 +1,5 @@
+# general
+alias c="clear"
+
+# npm
+alias ni="npm install"
