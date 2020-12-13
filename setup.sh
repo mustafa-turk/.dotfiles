@@ -12,3 +12,7 @@ ln -s ~/.dotfiles/vscode/settings.json $HOME/Library/Application\ Support/Code/U
 # apply
 source ~/.dotfiles/macos.sh
 source ~/.zshrc
+
+# restart processes
+killall Finder
+killall Dock
