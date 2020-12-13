@@ -1,12 +1,15 @@
-# Finder: Show hidden files by default
+# show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
-# Finder: Disable creation of .DS_store
+# disable screenshot preview
+defaults write com.apple.screencapture show-thumbnail -bool FALSE
+
+# disable creation of .DS_store
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
-# Dock: Speeds up the animation when trying hiding/showing dock
+# speeds up the animation when trying hiding/showing dock
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0.5
 
-# Dock: Automatically hide and show the Dock
+# automatically hide and show dock
 defaults write com.apple.dock autohide -bool true
