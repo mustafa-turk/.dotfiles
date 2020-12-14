@@ -13,3 +13,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0.5
 
 # automatically hide and show dock
 defaults write com.apple.dock autohide -bool true
+
+# make cursor move faster
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
