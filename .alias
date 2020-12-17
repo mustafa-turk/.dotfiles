@@ -3,3 +3,10 @@ alias c="clear"
 
 # npm
 alias ni="npm install"
+alias nt="npm test"
+alias ntu="npm test -- -u"
+alias nl="npm run lint"
+
+# git
+alias gs="git status"
+alias gpf="git push --force"
