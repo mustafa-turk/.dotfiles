@@ -11,10 +11,16 @@ plugins=(git zsh-z zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
-PROMPT='%{$fg[magenta]%}%c%{$reset_color%}$(git_prompt_info) %{$fg[white]%}%(!.#.$)%{$reset_color%} '
+PROMPT='%{$fg[magenta]%}%c %{$reset_color%}$(git_prompt_info)'
+RPROMPT=''
 
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[cyan]%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[cyan]%}*"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+# set java version to 11.x
+jhome 11

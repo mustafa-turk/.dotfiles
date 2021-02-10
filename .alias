@@ -1,12 +1,8 @@
-# general
-alias c="clear"
-
 # npm
-alias ni="npm install"
-alias nt="npm test"
-alias ntu="npm test -- -u"
-alias nl="npm run lint"
+alias r="npm run"
 
-# git
-alias gs="git status"
-alias gpf="git push --force"
+# vim
+alias vi="vim"
+
+# misc
+alias c="clear"

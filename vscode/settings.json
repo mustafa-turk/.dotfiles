@@ -1,5 +1,10 @@
 {
-  "breadcrumbs.enabled": true,
+  "customizeUI.titleBar": "inline",
+  "customizeUI.stylesheet": {
+    ".editor-actions, .actions-container, .dragging-area-top": "display: none;",
+    ".part.sidebar.left": "border-right: 1px solid #272B3B !important;",
+    ".current-line": "background-color: #01121F;"
+  },
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.autoIndent": "full",
@@ -7,61 +12,42 @@
     "source.fixAll": true,
     "source.fixAll.eslint": true
   },
-  "editor.codeLens": true,
+  "workbench.editor.showTabs": false,
+  "customizeUI.listRowHeight": 24,
+  "editor.lineHeight": 24,
   "editor.fontFamily": "Jetbrains Mono",
   "editor.fontLigatures": true,
-  "editor.fontSize": 13,
-  "editor.fontWeight": "normal",
-  "editor.lineHeight": 21,
-  "editor.minimap.enabled": false,
+  "editor.fontSize": 15,
+  "editor.minimap.renderCharacters": false,
   "editor.overviewRulerBorder": false,
   "editor.parameterHints.enabled": false,
-  "editor.renderIndentGuides": false,
   "editor.scrollBeyondLastLine": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
+  "editor.wordBasedSuggestions": false,
   "editor.wordWrap": "on",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
+  "workbench.tree.indent": 15,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
   "extensions.ignoreRecommendations": true,
-  "files.associations": {
-    "*.docdef": "json",
-    "*.dosdef": "json",
-    "*.reflist": "json",
-    "*.searchdef": "json"
-  },
+  "files.defaultLanguage": "javascript",
   "files.trimTrailingWhitespace": true,
   "git.enableSmartCommit": true,
+  "javascript.suggest.names": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "prettier.jsxSingleQuote": true,
-  "terminal.integrated.cursorStyle": "underline",
   "terminal.integrated.fontFamily": "Jetbrains Mono",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.fontSize": 15,
   "window.autoDetectColorScheme": false,
-  "window.nativeTabs": true,
-  "window.zoomLevel": 0.7,
-  "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "Overnight",
-  "workbench.editor.showIcons": false,
-  "workbench.iconTheme": "quill-icons",
+  "window.titleBarStyle": "native",
   "workbench.settings.editor": "json",
-  "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": true,
-  "workbench.tree.indent": 15,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "workbench.tree.renderIndentGuides": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": false,
+  "workbench.iconTheme": null,
+  "workbench.colorTheme": "Night Owl (No Italics)"
 }
