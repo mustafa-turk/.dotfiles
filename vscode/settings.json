@@ -45,13 +45,13 @@
   "terminal.integrated.rendererType": "dom",
   "window.autoDetectColorScheme": false,
   "window.nativeTabs": true,
-  "window.zoomLevel": 0.7,
-  "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "Overnight",
+  "window.zoomLevel": 0.5,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Overnight Italics",
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": "quill-icons",
   "workbench.settings.editor": "json",
-  "workbench.sideBar.location": "left",
+  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": true,
   "workbench.tree.indent": 15,
@@ -63,5 +63,7 @@
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.decorations.badges": true
 }

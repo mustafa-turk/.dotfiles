@@ -13,7 +13,9 @@ source $ZSH/oh-my-zsh.sh
 
 PROMPT='%{$fg[magenta]%}%c%{$reset_color%}$(git_prompt_info) %{$fg[white]%}%(!.#.$)%{$reset_color%} '
 
-export PATH="$HOME/.jenv/bin:$PATH"
+# export PATH="$HOME/.jenv/bin:$PATH"
+export GOPATH="$HOME/gopath"
+export PATH="$GOPATH/bin:$PATH"
 eval "$(jenv init -)"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
