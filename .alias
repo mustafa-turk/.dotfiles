@@ -1,21 +1,7 @@
 # npm
 alias inst="npm install"
 alias test="npm test"
-alias testu="npm test -- -u"
 alias lint="npm run lint"
-
-# git
-alias add="git add"
-alias commit="git commit"
-alias status="git status"
-alias fetch="git fetch"
-alias pull="git pull --rebase --autostash"
-alias push="git push"
-alias pushf="git push --force"
-alias oops="git reset --hard origin"
-alias switch="git checkout"
-alias rebase="git rebase"
-alias log="git log"
 
 # vim
 alias vi="vim"

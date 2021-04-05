@@ -1,5 +1,18 @@
 {
-  "breadcrumbs.enabled": true,
+  "customizeUI.titleBar": "inline",
+  "customizeUI.listRowHeight": 30,
+  "customizeUI.fontSizeMap": {
+    "tab-title": "12px"
+  },
+  "customizeUI.stylesheet": {
+    ".tab": "flex: 1; text-align: center; display: flex;",
+    ".editor-actions, .actions-container, .dragging-area-top": "display: none;",
+    ".tab.tab-actions-right.sizing-fit.tab-border-bottom.active": "background-color: #011627 !important;",
+    ".tab-actions": "order: 1;",
+    ".monaco-icon-label": "order: 2;",
+    ".dragging-area-left-padding": "background-color: #01111D !important; border-right: 1px solid #272B3B;",
+    ".monaco-icon-label:after": "margin-right: 20px !important"
+  },
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.autoIndent": "full",
@@ -8,62 +21,44 @@
     "source.fixAll.eslint": true
   },
   "editor.codeLens": true,
-  "editor.fontFamily": "Jetbrains Mono",
+  "editor.fontFamily": "Operator Mono",
   "editor.fontLigatures": true,
-  "editor.fontSize": 13,
-  "editor.fontWeight": "normal",
-  "editor.lineHeight": 21,
-  "editor.minimap.enabled": false,
+  "editor.fontSize": 15,
+  "editor.renderIndentGuides": true,
+  "editor.lineHeight": 42,
+  "editor.minimap.renderCharacters": false,
   "editor.overviewRulerBorder": false,
   "editor.parameterHints.enabled": false,
-  "editor.renderIndentGuides": false,
   "editor.scrollBeyondLastLine": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
+  "editor.wordBasedSuggestions": false,
   "editor.wordWrap": "on",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
   "extensions.ignoreRecommendations": true,
-  "files.associations": {
-    "*.docdef": "json",
-    "*.dosdef": "json",
-    "*.reflist": "json",
-    "*.searchdef": "json"
-  },
+  "files.defaultLanguage": "javascript",
   "files.trimTrailingWhitespace": true,
   "git.enableSmartCommit": true,
+  "javascript.suggest.names": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "prettier.jsxSingleQuote": true,
-  "terminal.integrated.cursorStyle": "underline",
   "terminal.integrated.fontFamily": "Jetbrains Mono",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.rendererType": "dom",
   "window.autoDetectColorScheme": false,
-  "window.nativeTabs": true,
-  "window.zoomLevel": 0.5,
+  "window.titleBarStyle": "native",
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Overnight Italics",
-  "workbench.editor.showIcons": false,
-  "workbench.iconTheme": "quill-icons",
+  "workbench.editor.showIcons": true,
   "workbench.settings.editor": "json",
-  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": true,
   "workbench.tree.indent": 15,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.editor.decorations.colors": true,
-  "workbench.editor.decorations.badges": true
+  "workbench.tree.renderIndentGuides": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": null,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Night Owl (No Italics)"
 }
