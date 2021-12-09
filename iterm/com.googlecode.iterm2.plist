@@ -855,11 +855,15 @@
 	<false/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>DrawOutlineAroundCursor</key>
+	<false/>
 	<key>EnableAPIServer</key>
 	<true/>
 	<key>EnableDivisionView</key>
 	<false/>
 	<key>HapticFeedbackForEsc</key>
+	<false/>
+	<key>HdrCursor</key>
 	<false/>
 	<key>HideScrollbar</key>
 	<false/>
@@ -1119,7 +1123,7 @@
 				<real>1</real>
 			</dict>
 			<key>Cursor Type</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
@@ -1626,7 +1630,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>JetBrainsMono-Medium 16</string>
+			<string>JetBrainsMono-Medium 15</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -1766,10 +1770,16 @@
 	<integer>0</integer>
 	<key>TerminalMargin</key>
 	<integer>8</integer>
+	<key>TimeBetweenBlinks</key>
+	<real>0.40000000596046448</real>
+	<key>UnderlineCursorHeight</key>
+	<real>2</real>
 	<key>UseBorder</key>
 	<false/>
 	<key>UseShortcutAccessoryViewController</key>
 	<false/>
+	<key>VerticalBarCursorWidth</key>
+	<real>2</real>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>findMode_iTerm</key>
