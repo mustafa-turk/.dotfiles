@@ -1,15 +1,29 @@
 {
-  "breadcrumbs.enabled": false,
-  "customizeUI.titleBar": "inline",
+  "explicitFolding.rules": {
+    "*": [
+      {
+        "begin": "{",
+        "end": "}"
+      },
+      {
+        "begin": "(",
+        "end": ")"
+      }
+    ],
+    "javascriptreact": [
+      {
+        "begin": "{/*",
+        "end": "*/}"
+      },
+      {
+        "begin": "<",
+        "end": "/>"
+      }
+    ]
+  },
   "customizeUI.listRowHeight": 23,
   "customizeUI.stylesheet": {
-    ".editor-actions, .actions-container, .dragging-area-top": "display: none;",
-    "body.inline-title-bar .monaco-workbench:not(.fullscreen) .sidebar .composite.title": "background: #01121F !important; border-bottom: 1px solid #122D42;",
-    ".monaco-workbench .part.editor>.content .editor-group-container>.title:not(.tabs)": "background: #01121F !important; padding-bottom: 2px;",
-    ".monaco-workbench .part>.content>.composite": "border-right: 1px solid #122D42;",
-    ".monaco-pane-view .pane>.pane-body": "background: #01121F;",
-    ".monaco-workbench .part.editor>.content .editor-group-container>.title>.label-container>.title-label": "display: flex; justify-content: center;",
-    ".monaco-workbench .part.statusbar": "background: #01121F !important;"
+    ".title.show-file-icons.title-border-bottom": "display: none !important;"
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
@@ -18,10 +32,17 @@
     "source.fixAll": true,
     "source.fixAll.eslint": true
   },
-  "editor.lineHeight": 23,
-  "editor.fontFamily": "JetBrains Mono",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#151515"
+  },
+  "editor.fontFamily": "Menlo",
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
   "editor.smoothScrolling": true,
-  "editor.fontSize": 14.5,
+  "editor.fontSize": 14,
   "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
   "editor.overviewRulerBorder": false,
@@ -47,11 +68,12 @@
   "window.autoDetectColorScheme": false,
   "window.titleBarStyle": "native",
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Night Owl (No Italics)",
-  "workbench.editor.showTabs": false,
   "workbench.tree.indent": 15,
   "workbench.iconTheme": null,
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.tree.renderIndentGuides": "always"
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorTheme": "CodeSandbox Black",
+  "breadcrumbs.enabled": false,
+  "workbench.editor.showTabs": false
 }
