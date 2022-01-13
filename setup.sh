@@ -5,7 +5,6 @@ sh install.sh
 ln -s ~/.dotfiles/.zshrc ~
 ln -s ~/.dotfiles/.vimrc ~
 ln -s ~/.dotfiles/.alias ~
-ln -s ~/.dotfiles/.functions ~
 
 # symlink vscode settings
 ln -s ~/.dotfiles/vscode/settings.json $HOME/Library/Application\ Support/Code/User
