@@ -1,52 +1,36 @@
 {
-  "explicitFolding.rules": {
-    "*": [
-      {
-        "begin": "{",
-        "end": "}"
-      },
-      {
-        "begin": "(",
-        "end": ")"
-      }
-    ],
-    "javascriptreact": [
-      {
-        "begin": "{/*",
-        "end": "*/}"
-      },
-      {
-        "begin": "<",
-        "end": "/>"
-      }
-    ]
-  },
-  "customizeUI.listRowHeight": 23,
-  "customizeUI.stylesheet": {
-    ".title.show-file-icons.title-border-bottom": "display: none !important;"
-  },
   "diffEditor.ignoreTrimWhitespace": false,
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.autoIndent": "full",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.fixAll.eslint": true
+  "customizeUI.titleBar": "frameless",
+  "customizeUI.statusBarPosition": "under-panel",
+  "customizeUI.stylesheet": {
+    ":root": "--tab-height: 26px; --font-size-tab-title: 12px;",
+    ".editor-actions": "display: none;",
+    ".tabs-container": "height: unset !important; width: 100%; display: flex;",
+    ".tabs-container .tab": "height: var(--tab-height) !important; line-height: var(--tab-height) !important; flex: 1; text-align: center; background-color: #363636 !important;",
+    ".tabs-container .tab.active": "background-color: #363636 !important;",
+    ".tabs-container .monaco-icon-label": "height: var(--tab-height) !important; line-height: var(--tab-height) !important; font-size: var(--font-size-tab-title) !important;",
+    ".tabs-container .tab-actions": "display: none !important;",
+    ".tabs-container .monaco-icon-label:before": "height: var(--tab-height) !important; line-height: var(--tab-height) !important;",
+    ".tabs-container .monaco-icon-description-container": "display: none;",
   },
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#151515"
-  },
-  "editor.fontFamily": "Menlo",
   "editor.quickSuggestions": {
     "other": false,
     "comments": false,
     "strings": false
   },
-  "editor.smoothScrolling": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.autoIndent": "full",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.lineDecorationsWidth": 15,
   "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
   "editor.overviewRulerBorder": false,
   "editor.parameterHints.enabled": false,
+  "git.decorations.enabled": false,
+  "editor.folding": false,
+  "editor.glyphMargin": false,
   "editor.scrollBeyondLastLine": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -63,17 +47,24 @@
   "javascript.suggest.names": false,
   "prettier.jsxSingleQuote": true,
   "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.fontFamily": "Jetbrains Mono",
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "Martian Mono",
+  "terminal.integrated.fontSize": 13,
   "window.autoDetectColorScheme": false,
-  "window.titleBarStyle": "native",
   "workbench.activityBar.visible": false,
   "workbench.tree.indent": 15,
   "workbench.iconTheme": null,
   "workbench.settings.editor": "json",
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "always",
-  "workbench.colorTheme": "CodeSandbox Black",
+  "editor.inlineSuggest.enabled": true,
+  "window.nativeTabs": true
+  ,
+  "editor.accessibilitySupport": "off",
   "breadcrumbs.enabled": false,
-  "workbench.editor.showTabs": false
+  "workbench.editor.decorations.badges": false,
+  "window.commandCenter": true,
+  "explorer.decorations.colors": false,
+  "workbench.editor.decorations.colors": false,
+  "workbench.statusBar.visible": false,
+  "workbench.colorTheme": "JetBrains Rider Dark Theme",
 }
