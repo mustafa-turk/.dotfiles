@@ -12,6 +12,7 @@
     ".tabs-container .tab-actions": "display: none !important;",
     ".tabs-container .monaco-icon-label:before": "height: var(--tab-height) !important; line-height: var(--tab-height) !important;",
     ".tabs-container .monaco-icon-description-container": "display: none;",
+    ".monaco-editor .margin": "background-color: inherit"
   },
   "editor.quickSuggestions": {
     "other": false,
@@ -23,7 +24,10 @@
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.autoIndent": "full",
   "editor.scrollbar.vertical": "hidden",
-  "editor.lineDecorationsWidth": 15,
+  "editor.lineNumbers": "off",
+  "editor.lineDecorationsWidth": 5,
+  "editor.guides.indentation": false,
+  "editor.guides.highlightActiveIndentation":false,
   "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
   "editor.overviewRulerBorder": false,
@@ -67,4 +71,9 @@
   "workbench.editor.decorations.colors": false,
   "workbench.statusBar.visible": false,
   "workbench.colorTheme": "JetBrains Rider Dark Theme",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#DF97BD",
+    "editor.lineHighlightBackground": "#00000000",
+    "editor.lineHighlightBorder": "#00000000"
+  }
 }
