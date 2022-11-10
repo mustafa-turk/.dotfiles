@@ -3,16 +3,9 @@
   "customizeUI.titleBar": "frameless",
   "customizeUI.statusBarPosition": "under-panel",
   "customizeUI.stylesheet": {
-    ":root": "--tab-height: 26px; --font-size-tab-title: 12px;",
-    ".editor-actions": "display: none;",
-    ".tabs-container": "height: unset !important; width: 100%; display: flex;",
-    ".tabs-container .tab": "height: var(--tab-height) !important; line-height: var(--tab-height) !important; flex: 1; text-align: center; background-color: #363636 !important;",
-    ".tabs-container .tab.active": "background-color: #363636 !important;",
-    ".tabs-container .monaco-icon-label": "height: var(--tab-height) !important; line-height: var(--tab-height) !important; font-size: var(--font-size-tab-title) !important;",
-    ".tabs-container .tab-actions": "display: none !important;",
-    ".tabs-container .monaco-icon-label:before": "height: var(--tab-height) !important; line-height: var(--tab-height) !important;",
-    ".tabs-container .monaco-icon-description-container": "display: none;",
-    ".monaco-editor .margin": "background-color: inherit"
+    "div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container.tabs-border-bottom > div.editor-actions": "display: none !important;",
+    "div.tabs-and-actions-container.tabs-border-bottom > div.monaco-scrollable-element.mac > div.tabs-container": "display: flex !important;",
+    "div.tabs-and-actions-container.tabs-border-bottom > div.monaco-scrollable-element.mac > div.tabs-container > .tab": "flex: 1 !important;"
   },
   "editor.quickSuggestions": {
     "other": false,
